@@ -1,0 +1,8 @@
+package br.com.alura.gerenciador.servlet;
+
+public class MainServlet extends HttpServlet {
+	@Override
+	protected  void service(HttpServletRequest req, HttpServletResponse resp) {
+		
+	}
+}
