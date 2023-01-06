@@ -1,0 +1,8 @@
+package br.com.alura.gerenciador.servlet;
+
+public class Banco {
+	private List<Empresa> = new ArrayList<>();
+	public addEmpresa(Empresa empresa) {
+		
+	}
+}
