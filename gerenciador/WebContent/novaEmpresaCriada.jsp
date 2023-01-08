@@ -1,6 +1,7 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <html>
-<body
-><h1>Cadastrando nova empresa ${empresa}</h1>
+<body>
+	
 </body
 ></html>
