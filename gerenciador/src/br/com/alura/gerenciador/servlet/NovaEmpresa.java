@@ -11,6 +11,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import br.com.alura.gerenciador.modelo.Banco;
+import br.com.alura.gerenciador.modelo.Empresa;
+
 
 @WebServlet("/novaEmpresa")
 public class NovaEmpresa extends HttpServlet {
@@ -27,9 +30,6 @@ public class NovaEmpresa extends HttpServlet {
 			banco.addEmpresa(empresa);
 			
 			response.sendRedirect("listaEmpresas");
-			//RequestDispatcher rd = request.getRequestDispatcher("/listaEmpresas");
-			//request.setAttribute("empresa", empresa.getNome());
-			//rd.forward(request, response);
 			System.out.println("Cadastrando nova empresa");
 		} catch (ParseException e) {
 			throw new ServletException(e);
