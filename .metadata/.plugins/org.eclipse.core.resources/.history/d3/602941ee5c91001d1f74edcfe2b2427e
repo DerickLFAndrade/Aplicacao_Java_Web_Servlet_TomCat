@@ -1,0 +1,31 @@
+package br.com.alura.gerenciador.services;
+
+import java.io.IOException;
+import java.text.ParseException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import br.com.alura.gerenciador.modelo.Banco;
+import br.com.alura.gerenciador.modelo.Empresa;
+
+public class MostraEmpresa {
+	
+	public void executa(HttpServletRequest request, HttpServletResponse response, Integer id) throws ParseException, ServletException, IOException {
+		System.out.println("Mostrando empresa");
+		
+		Banco banco = new Banco();
+		Empresa empresa = banco.buscaEmpresaPelaId(id);
+		
+		request.setAttribute("empresa", empresa);
+		
+	
+		RequestDispatcher rw =  request.getRequestDispatcher("/formAlteraEmpresa.jsp");
+		rw.forward(request, response);
+			
+	
+		
+	}
+}

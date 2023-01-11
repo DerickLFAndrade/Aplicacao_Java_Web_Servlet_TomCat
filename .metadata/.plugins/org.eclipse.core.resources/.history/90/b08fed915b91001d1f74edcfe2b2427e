@@ -1,0 +1,48 @@
+package br.com.alura.gerenciador.servlet;
+
+import java.io.IOException;
+import java.text.ParseException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import br.com.alura.gerenciador.services.ListaEmpresas;
+import br.com.alura.gerenciador.services.MostraEmpresa;
+
+@WebServlet("/entrada")
+public class UnicaEntradaServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String paramAcao = request.getParameter("acao");
+		String paramId = request.getParameter("id");
+		
+		if(paramAcao.equals("ListaEmpresas")) {
+			ListaEmpresas acao = new ListaEmpresas();
+			acao.executa(request, response);
+		}
+		else if(paramAcao.equals("RemoveEmpresa")) {
+			System.out.println("Removendo empresa");
+		}
+		else if(paramAcao.equals("MostraEmpresa?id="+paramId)) {
+			System.out.println("ppqp");
+			MostraEmpresa acao = new MostraEmpresa();
+			try {
+				acao.executa(request, response);
+			} catch (ParseException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (ServletException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+
+}
