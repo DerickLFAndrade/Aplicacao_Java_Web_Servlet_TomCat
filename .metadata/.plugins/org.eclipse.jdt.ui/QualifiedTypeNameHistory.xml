@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="org.apache.jasper.tagplugins.jstl.core.ForEach"/>
+    <fullyQualifiedTypeName name="javax.print.attribute.AttributeSet"/>
+    <fullyQualifiedTypeName name="br.com.alura.gerenciador.services.ListaEmpresas"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="br.com.alura.gerenciador.services.NovaEmpresa"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalAccessException"/>
 </qualifiedTypeNameHistroy>
