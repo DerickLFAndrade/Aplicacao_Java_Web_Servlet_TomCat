@@ -1,5 +1,0 @@
-<html>
-<body
-><h1>Cadastrando nova empresa\n" + empresa.getNome() + "</h1>
-</body
-></html>
