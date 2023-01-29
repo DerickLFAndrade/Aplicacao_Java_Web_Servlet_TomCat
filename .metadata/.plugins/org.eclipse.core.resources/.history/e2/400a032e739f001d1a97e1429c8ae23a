@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<filter>
+    <filter-name>AF</filter-name>
+    <filter-class>br.com.alura.gerenciador.servlet.AutorizacaoFilter</filter-class>
+</filter>
+
+<filter-mapping>
+    <filter-name>AF</filter-name>
+    <url-pattern>/entrada</url-pattern>
+</filter-mapping>
+
+<filter>
+    <filter-name>MF</filter-name>
+    <filter-class>br.com.alura.gerenciador.servlet.MonitoramentoFilter</filter-class>
+</filter>
+
+<filter-mapping>
+    <filter-name>MF</filter-name>
+    <url-pattern>/entrada</url-pattern>
+</filter-mapping>

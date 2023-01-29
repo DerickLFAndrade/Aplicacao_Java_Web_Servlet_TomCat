@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;AutorizacaoFilter.java&apos; to &apos;br.com.alura.gerenciador.servlet.AutorizacaoFilter.java&apos;&#x0D;&#x0A;- Original project: &apos;gerenciador&apos;&#x0D;&#x0A;- Destination element: &apos;br.com.alura.gerenciador.servlet.AutorizacaoFilter.java&apos;&#x0D;&#x0A;- Original element: &apos;br.com.alura.gerenciador.servlet.AutorizacaoFilter.java&apos;" description="Copy compilation unit" destination="/src&lt;br.com.alura.gerenciador.servlet{AutorizacaoFilter.java" element1="/src&lt;br.com.alura.gerenciador.servlet{AutorizacaoFilter.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1674955532038" units="1" version="1.0"/>
+</session>

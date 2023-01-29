@@ -71,4 +71,14 @@ public class Banco {
 			}
 		}
 	}
+	
+	public Usuario existeUsuraio (String login, String senha) {
+		for(Usuario usuario : listUsuarios) {
+			if(usuario.equalsUs(login, senha)) {
+				return usuario;
+			}
+		}
+		return null;
+		
+	}
 }

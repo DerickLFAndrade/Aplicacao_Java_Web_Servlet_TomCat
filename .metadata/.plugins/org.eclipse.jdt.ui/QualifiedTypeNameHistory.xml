@@ -9,4 +9,5 @@
     <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
     <fullyQualifiedTypeName name="br.com.alura.gerenciador.services.NovaEmpresa"/>
     <fullyQualifiedTypeName name="java.lang.IllegalAccessException"/>
+    <fullyQualifiedTypeName name="br.com.alura.gerenciador.modelo.Usuario"/>
 </qualifiedTypeNameHistroy>

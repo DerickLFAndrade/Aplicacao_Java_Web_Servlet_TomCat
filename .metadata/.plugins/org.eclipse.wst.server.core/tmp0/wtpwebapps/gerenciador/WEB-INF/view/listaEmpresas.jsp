@@ -14,6 +14,11 @@ page import = "java.util.List,br.com.alura.gerenciador.modelo.Empresa"
 <title>Lista de Empresas</title>
 </head>
 <body>
+	
+	<c:import url="logout-parcial.jsp" />
+	
+	Usuario Logado: ${usuarioLogado.login}
+	
 	<c:if test="${not empty empresa}">
 		<h1>Cadastrando nova empresa ${empresa}</h1>
 	</c:if>

@@ -15,9 +15,9 @@
 		<input type="text" name="login"/>
 		<label>Senha:</label>
 		<input type="password" name="senha"/>
-		<input type="hidden" name="acao" value="login"/>
+		<input type="hidden" name="acao" value="Login"/>
 		
-		<button type="submit">Editar</button>	
+		<button type="submit">Login</button>	
 	</form>
 </body>
 </html>
