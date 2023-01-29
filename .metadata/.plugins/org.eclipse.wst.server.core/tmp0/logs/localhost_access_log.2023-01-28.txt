@@ -123,3 +123,6 @@
 0:0:0:0:0:0:0:1 - - [28/Jan/2023:23:00:28 -0300] "GET /gerenciador/empresas HTTP/1.1" 500 1390
 0:0:0:0:0:0:0:1 - - [28/Jan/2023:23:00:29 -0300] "GET /gerenciador/empresas HTTP/1.1" 500 1390
 0:0:0:0:0:0:0:1 - - [28/Jan/2023:23:00:33 -0300] "GET /gerenciador/empresas HTTP/1.1" 200 136
+127.0.0.1 - - [28/Jan/2023:23:36:31 -0300] "GET / HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [28/Jan/2023:23:53:35 -0300] "GET /gerenciador/entrada?acao=ListaEmpresas HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [28/Jan/2023:23:53:40 -0300] "GET / HTTP/1.1" 404 763
